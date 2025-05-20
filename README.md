@@ -14,8 +14,8 @@ A continuación se describen los rodados que maneja la muncipalidad.
 
 - Varios **Renault Kwid** que funcionan _a gas_. 
   Cada uno de ellos puede tener puesto, o no, un tanque adicional. 
-  - La capacidad de un Kwid es de 4 pasajeros si no tiene puesto el tanque adicional, o 3 pasajeros si sí lo tiene puesto.
-  - La velocidad máxima es 120 km/h con, o 110 km/h sin, tanque adicional.
+  - La capacidad de un Kwid es de 4 pasajeros si no tiene puesto el tanque adicional, o 3 pasajeros sí lo tiene puesto.
+  - La velocidad máxima es 120 km/h con tanque adicional, o 110 km/h sin tanque adicional.
   - El peso es 1200 kg, más 150 kg adicionales si tiene tanque adicional. 
   - Todos los autos de este tipo con que cuenta la municipalidad son azules. <br>
 
@@ -47,7 +47,7 @@ Debe ser posible enviarle los siguientes mensajes a cada objeto que representa a
 
 ### Test con dos dependencias
 
-Armar un test en el que hay que se definen dos dependencias: deportes (45 empleados) y cultura (31 empleados).
+Armar un test en el que se definen dos dependencias: deportes (45 empleados) y cultura (31 empleados).
 	
 En este test debe definirse un rodado al que llamaremos _cachito_; o sea, definir `var cachito = ...`.
 Este rodado debe ser un Corsa de color rojo.
